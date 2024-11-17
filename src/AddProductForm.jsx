@@ -17,7 +17,6 @@ function AddProductForm({ onAddProduct }) {
     };
 // Code meant to show the product id which is the date of when the product was dded along with the name, price, and description. 
 // Code meant to display the option to add products, set price, and a description.
-
     onAddProduct(newProduct);
     setName('');
     setPrice('');
