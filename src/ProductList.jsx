@@ -13,6 +13,7 @@ function ProductList({ products }) {
   );
 }
 // Code created to display the list of products by the ID number that was set in the original data set. 
+// Product "key" is the product ID number. 
 
 export default ProductList;
 // Code created to make App function accessible in other files.
