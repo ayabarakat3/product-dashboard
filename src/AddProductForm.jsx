@@ -50,6 +50,6 @@ function AddProductForm({ onAddProduct }) {
   );
 }
 // Code meant to display the form on the page and allow users to add products.
-
+// Changed EventAction to event to simplify the code. 
 export default AddProductForm;
 // Code created to make App function accessible in other files.
