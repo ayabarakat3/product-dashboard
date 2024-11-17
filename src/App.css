@@ -2,7 +2,7 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
-    background-color: #72033e; 
+    background-color: #fbbdde; 
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(250, 1, 171, 0.1); 
   }
@@ -16,7 +16,7 @@
   
   h2 {
     font-size: 2rem;
-    color: #56f12b;
+    color: #ff06a8;
     margin-top: 2rem;
     font-family: 'Times New Roman', sans-serif;
   }
@@ -39,7 +39,7 @@
   
   .product-item p {
     margin: 0.5rem 0;
-    color: #fd2424;
+    color: #d5f83b;
   }
   form {
     display: flex;
@@ -69,10 +69,10 @@
     cursor: pointer;
     transition: background-color 0.3s;
   }
-  
+
   
   button:hover {
-    background-color: #aed7f8; 
+    background-color: #bb0865; 
   }
   /* Code meant to make webpage appear more pleasing to the eye and to make it more interesting. 
   Bright and different colors were chosen to make the webpage stand out. */
