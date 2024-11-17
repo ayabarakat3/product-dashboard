@@ -1,42 +1,77 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #72033e; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(250, 1, 171, 0.1); 
   }
-  to {
-    transform: rotate(360deg);
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', sans-serif;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  h2 {
+    font-size: 2rem;
+    color: #56f12b;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', sans-serif;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  
+  .product-item {
+    background-color: #1f88f0;
+    border: 1px solid #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .product-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #222;
+  }
+  
+  .product-item p {
+    margin: 0.5rem 0;
+    color: #fd2424;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    box-shadow: 0 2px 4px rgba(238, 182, 229, 0.1);
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2b9ce;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #aed7f8; 
+  }
+  /* Code meant to make webpage appear more pleasing to the eye and to make it more interesting. 
+  Bright and different colors were chosen to make the webpage stand out. */
